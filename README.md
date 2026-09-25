@@ -1,19 +1,27 @@
-#Cesarq React Starter
+#Cesarq Portfolio - Software Engineer
 
-Personal React + TypeScript starter template built with Vite.
+Personal portfolio webssite showcasing my software engineering projects, technical skills, and experience building applications.
 
-##Stack
+##About
 
+This porfolio serves as a central place to explore my work as a software engineer and full-stack developer.
+
+##Tech Stack
+
+- CSS
+- Git
+- Github
+- HTML
+- JavasScript
 - React
 - TypeScript
 - Vite
-- ESLint
-- Prettier
 
-##Development
+##Features
 
-Install dependencies:
-
-```bash
-npm install
-```
+- Responsive design
+- Project showcase
+- Interactive UI components
+- Developer-focused terminal interface
+- Contact section
+- Responsive mobile layout
