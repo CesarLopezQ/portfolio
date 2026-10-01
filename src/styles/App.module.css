@@ -193,6 +193,7 @@
   .container {
     height: auto;
     min-height: 100dvh;
+    min-width: 0;
   }
 
   .contentContainer {
