@@ -1,0 +1,50 @@
+.mainWindow {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #004547;
+  background-color: #0b0d10;
+  height: 100%;
+  color: #46ff33;
+  font-size: 1rem;
+  font-family: 'FiraCode', sans-serif;
+}
+
+.subWindow {
+  border-bottom: 1px solid #004547;
+}
+
+.CLI {
+  flex: 1;
+  cursor: pointer;
+  overflow-y: auto;
+  scrollbar-width: none;
+}
+
+.commandLine {
+  display: flex;
+  color: #46ff33;
+}
+
+.title {
+  padding: 0.5rem 1rem;
+}
+
+.text {
+  padding: 1rem;
+  color: #7bb26c;
+  line-height: 2rem;
+  white-space: pre-wrap;
+}
+
+.output {
+  color: #f0f3f6;
+}
+
+.input {
+  flex: 1;
+  outline: none;
+  border: none;
+  background: transparent;
+  color: inherit;
+  font: inherit;
+}

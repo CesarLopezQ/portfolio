@@ -1,28 +1,52 @@
 *,
 *::before,
 *::after {
-	box-sizing: border-box;
-	margin: 0;
-	padding: 0;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
 html {
-	scroll-behavior: smooth;
+  scroll-behavior: smooth;
+}
+
+@font-face {
+  font-weight: 300 700;
+  src: url('./assets/fonts/SpaceGrotesk-VariableFont_wght.ttf');
+  font-family: 'Space Grotesk';
+}
+
+@font-face {
+  font-weight: 300 700;
+  src: url('./assets/fonts/JetBrainsMono-VariableFont_wght.ttf');
+  font-family: 'JetBrains Mono';
+}
+
+@font-face {
+  src: url('./assets/fonts/JetBrainsMono-Italic-VariableFont_wght.ttf');
+  font-family: 'JetBrains Mono Italic';
+}
+
+@font-face {
+  src: url('./assets/fonts/FiraCode-VariableFont_wght.ttf');
+  font-family: 'FiraCode';
 }
 
 body {
-	min-width: 320px;
-	min-height: 100vh;
-	font-family:
-		Inter,
-		system-ui,
-		-apple-system,
-		BlinkMacSystemFont,
-		"Segoe UI",
-		sans-serif;
-	line-height: 1.5;
-	text-rendering: optimizeLegibility;
-	-webkit-font-smoothing: antialiased;
+  min-width: 320px;
+  min-height: 100vh;
+  font-family:
+    Inter,
+    system-ui,
+    -apple-system,
+    BlinkMacSystemFont,
+    'Segoe UI',
+    sans-serif;
+  line-height: 1.5;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  color: #f0f3f6;
+  background-color: #0b0d10;
 }
 
 img,
@@ -30,29 +54,29 @@ picture,
 video,
 canvas,
 svg {
-	display: block;
-	max-width: 100%;
+  display: block;
+  max-width: 100%;
 }
 
 button,
 input,
 textarea,
 select {
-	font: inherit;
+  font: inherit;
 }
 
 button {
-	cursor: pointer;
+  cursor: pointer;
 }
 
 a {
-	color: inherit;
-	text-decoration: none;
+  color: inherit;
+  text-decoration: none;
 }
 
 ul,
 ol {
-	list-style-type: none;
+  list-style-type: none;
 }
 
 h1,
@@ -61,6 +85,6 @@ h3,
 h4,
 h5,
 h6 {
-	font-size: inherit;
-	font-weight: inherit;
+  font-size: inherit;
+  font-weight: inherit;
 }
