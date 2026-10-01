@@ -5,7 +5,9 @@
   gap: 1rem;
   padding: 1rem;
   width: 100%;
+  min-width: 485px;
   height: 100dvh;
+  min-height: 600px;
 }
 
 .navContainer {
@@ -45,6 +47,7 @@
   align-items: center;
   width: 25%;
   text-align: center;
+  gap: 0.5rem;
 }
 
 .carrusel {
@@ -52,7 +55,11 @@
   flex-direction: column;
   margin-left: 1rem;
   width: 75%;
-  overflow: hidden;
+  overflow: scroll;
+}
+
+::-webkit-scrollbar {
+  display: none;
 }
 
 /*Cards*/
@@ -102,7 +109,7 @@
   }
 }
 
-/*Hover Functions*/
+/*#region Hover Functions*/
 .carruselCard:hover {
   cursor: pointer;
   border: 1px solid #56f8ff;
@@ -147,6 +154,7 @@
 .jump:hover span:nth-child(10) {
   animation-delay: 0.9s;
 }
+/*#endregion*/
 
 /*Text*/
 .title {
@@ -179,4 +187,70 @@
 
 .accent {
   color: #56f8ff;
+}
+
+@media screen and (max-width: 1025px) {
+  .container {
+    height: auto;
+    min-height: 100dvh;
+  }
+
+  .contentContainer {
+    display: flex;
+    flex: 0 0 auto;
+    flex-direction: column;
+    height: auto;
+    min-height: auto;
+    gap: 1rem;
+  }
+
+  .navContainer {
+    display: flex;
+    flex: 0 0 auto;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 1rem;
+  }
+
+  .navBlock {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  .navBlock .interact {
+    margin: 0 2rem;
+  }
+
+  .hero {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    text-align: center;
+    gap: 1rem;
+  }
+
+  .carrusel {
+    display: flex;
+    flex-direction: column;
+    margin-left: 0;
+    width: 100%;
+    overflow: visible;
+  }
+
+  .carruselCard {
+    display: flex;
+    flex: 0 0 auto;
+    align-items: center;
+    margin: 1rem;
+    border: 1px solid #465463;
+    padding: 1.5rem;
+    min-height: 0;
+  }
+
+  .consoleContainer {
+    display: none;
+  }
 }
