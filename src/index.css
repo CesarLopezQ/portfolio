@@ -35,6 +35,7 @@ html {
 body {
   min-width: 320px;
   min-height: 100vh;
+  line-height: 1.5;
   font-family:
     Inter,
     system-ui,
@@ -42,11 +43,10 @@ body {
     BlinkMacSystemFont,
     'Segoe UI',
     sans-serif;
-  line-height: 1.5;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
-  color: #f0f3f6;
   background-color: #0b0d10;
+  color: #f0f3f6;
 }
 
 img,
@@ -85,6 +85,6 @@ h3,
 h4,
 h5,
 h6 {
-  font-size: inherit;
   font-weight: inherit;
+  font-size: inherit;
 }
